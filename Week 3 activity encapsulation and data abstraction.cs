@@ -12,16 +12,16 @@ public Player
 
 
 
- abstract class InventoryItem
+ public abstract class InventoryItem
  {
     protected string _name;
     {
-        set _name;
+        _name = name
     }
 
     public string GetName()
     {
-        return GetName();
+        return _name;
     }
     
     public abstract void Use();
