@@ -1,11 +1,11 @@
 namespace Mygame
 
-public Player 
+public class Player 
  {
     private int getHealth()
     { return _health;}
     public void setHealth (int thisHealth)
-    {_health = thisHealt;}
+    {_health = thisHealth;}
     
 
  }
