@@ -1,5 +1,6 @@
-using namespace;
-// charactor creator problem 1
+
+using namespace Mygame;
+
 public class Character
 {
     string name{get;set}
@@ -17,7 +18,6 @@ knight.name = "Sir Galahad";
 knight.health = 100;
 knight.Greet();
 
-// monster mash problem 2
 public class Monster
 {
     int speed;
@@ -35,7 +35,6 @@ public class Monster
     
 }
 
-//level up problem 3
 
 public class Character
 {

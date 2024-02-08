@@ -1,4 +1,6 @@
+
 namespace Mygame
+
 
 public class Character
 
@@ -7,7 +9,7 @@ public class Character
     public  int health;
     public  int attackPower;
 
-    public void Attack(Character target)
+    public void Attack(Character.target)
     {
         target.health = health - attackPower;
     }
@@ -15,7 +17,7 @@ public class Character
 
     public void TakeDamage(target.health)
     {
-
+        Damage = target.health - attackPower;
     }
     public class Player:Character
 
