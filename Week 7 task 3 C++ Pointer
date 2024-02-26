@@ -1,0 +1,18 @@
+// Week 7 Tasks C++
+#include <iostream>
+
+using namespace std;
+//Task 3 C++
+int main()
+{
+    int myVariable = 11;
+    int* PointertomyVariable = &myVariable;
+
+    std::cout <<"Variable's value"<< myVariable<< std::endl;
+    std::cout << "Value obtained through pointer"<< PointertomyVariable<< std::endl;
+    
+    return 0;
+}
+
+// Task 4 C++
+
